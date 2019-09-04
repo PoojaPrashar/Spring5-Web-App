@@ -4,15 +4,16 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-
+@Entity
 public class Author {
 
-
-    private Long id;
+   @Id
+   @GeneratedValue(strategy = GenerationType.AUTO)
+   private Long id;
    private String first_name;
    private String last_name;
 
-
+   @ManyToMany(mappedBy = "authors")
    private Set<Book> books = new HashSet<Book>();
 
 
