@@ -7,10 +7,9 @@ import org.springframework.stereotype.Component;
 import poo.springframework.spring5WebApp.repositories.AuthorRepository;
 import poo.springframework.spring5WebApp.repositories.BookRepository;
 import poo.springframework.spring5WebApp.repositories.PublisherRepository;
-import poo.springframework.spring5WebApp.views.Author;
-import poo.springframework.spring5WebApp.views.Book;
-import poo.springframework.spring5WebApp.views.Publisher;
-import java.util.Set;
+import poo.springframework.spring5WebApp.Model.Author;
+import poo.springframework.spring5WebApp.Model.Book;
+import poo.springframework.spring5WebApp.Model.Publisher;
 
 
 @Component

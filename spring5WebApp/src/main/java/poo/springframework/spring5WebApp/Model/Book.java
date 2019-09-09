@@ -1,4 +1,4 @@
-package poo.springframework.spring5WebApp.views;
+package poo.springframework.spring5WebApp.Model;
 
 import javax.persistence.*;
 import java.util.HashSet;
